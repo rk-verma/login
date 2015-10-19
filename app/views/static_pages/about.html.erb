@@ -1,2 +1,14 @@
-<h1>StaticPages#about</h1>
-<p>Find me in app/views/static_pages/about.html.erb</p>
+<% provide(:title,"ABOUT") %>
+<% provide(:content, " Webapp developed by CMPT-276 students") %>
+<% provide(:name, "About") %>
+
+<h1>SFU USED BOOK SALES</h1>
+<h2> 
+	<%= yield (:name) %>
+</h2>
+<p>
+	<%= yield (:content) %>
+</p>
+	
+
+
