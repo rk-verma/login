@@ -4,6 +4,7 @@
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
+$sfu-red: #FA5858; /* Adding custom color names */
 
 /* universal */
 
@@ -66,7 +67,7 @@ p {
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: white;
+    color: $sfu-red;
     text-decoration: none;
   }
 }
